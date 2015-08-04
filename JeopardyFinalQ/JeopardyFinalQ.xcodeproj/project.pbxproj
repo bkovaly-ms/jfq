@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE805DE1B71666E009CE135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE805DD1B71666E009CE135 /* main.m */; };
+		CAE805E11B71666E009CE135 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE805E01B71666E009CE135 /* AppDelegate.m */; };
+		CAE805E41B71666E009CE135 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE805E31B71666E009CE135 /* ViewController.m */; };
+		CAE805E71B71666E009CE135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE805E51B71666E009CE135 /* Main.storyboard */; };
+		CAE805E91B71666E009CE135 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE805E81B71666E009CE135 /* Images.xcassets */; };
+		CAE805EC1B71666F009CE135 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE805EA1B71666F009CE135 /* LaunchScreen.xib */; };
+		CAE805F81B71666F009CE135 /* JeopardyFinalQTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE805F71B71666F009CE135 /* JeopardyFinalQTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAE805F21B71666F009CE135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE805D01B71666E009CE135 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE805D71B71666E009CE135;
+			remoteInfo = JeopardyFinalQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAE805D81B71666E009CE135 /* JeopardyFinalQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeopardyFinalQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE805DC1B71666E009CE135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE805DD1B71666E009CE135 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAE805DF1B71666E009CE135 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAE805E01B71666E009CE135 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAE805E21B71666E009CE135 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAE805E31B71666E009CE135 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAE805E61B71666E009CE135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAE805E81B71666E009CE135 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CAE805EB1B71666F009CE135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CAE805F11B71666F009CE135 /* JeopardyFinalQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JeopardyFinalQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE805F61B71666F009CE135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE805F71B71666F009CE135 /* JeopardyFinalQTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JeopardyFinalQTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE805D51B71666E009CE135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE805EE1B71666F009CE135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE805CF1B71666E009CE135 = {
+			isa = PBXGroup;
+			children = (
+				CAE805DA1B71666E009CE135 /* JeopardyFinalQ */,
+				CAE805F41B71666F009CE135 /* JeopardyFinalQTests */,
+				CAE805D91B71666E009CE135 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE805D91B71666E009CE135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE805D81B71666E009CE135 /* JeopardyFinalQ.app */,
+				CAE805F11B71666F009CE135 /* JeopardyFinalQTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE805DA1B71666E009CE135 /* JeopardyFinalQ */ = {
+			isa = PBXGroup;
+			children = (
+				CAE805DF1B71666E009CE135 /* AppDelegate.h */,
+				CAE805E01B71666E009CE135 /* AppDelegate.m */,
+				CAE805E21B71666E009CE135 /* ViewController.h */,
+				CAE805E31B71666E009CE135 /* ViewController.m */,
+				CAE805E51B71666E009CE135 /* Main.storyboard */,
+				CAE805E81B71666E009CE135 /* Images.xcassets */,
+				CAE805EA1B71666F009CE135 /* LaunchScreen.xib */,
+				CAE805DB1B71666E009CE135 /* Supporting Files */,
+			);
+			path = JeopardyFinalQ;
+			sourceTree = "<group>";
+		};
+		CAE805DB1B71666E009CE135 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE805DC1B71666E009CE135 /* Info.plist */,
+				CAE805DD1B71666E009CE135 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAE805F41B71666F009CE135 /* JeopardyFinalQTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE805F71B71666F009CE135 /* JeopardyFinalQTests.m */,
+				CAE805F51B71666F009CE135 /* Supporting Files */,
+			);
+			path = JeopardyFinalQTests;
+			sourceTree = "<group>";
+		};
+		CAE805F51B71666F009CE135 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE805F61B71666F009CE135 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE805D71B71666E009CE135 /* JeopardyFinalQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE805FB1B71666F009CE135 /* Build configuration list for PBXNativeTarget "JeopardyFinalQ" */;
+			buildPhases = (
+				CAE805D41B71666E009CE135 /* Sources */,
+				CAE805D51B71666E009CE135 /* Frameworks */,
+				CAE805D61B71666E009CE135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JeopardyFinalQ;
+			productName = JeopardyFinalQ;
+			productReference = CAE805D81B71666E009CE135 /* JeopardyFinalQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAE805F01B71666F009CE135 /* JeopardyFinalQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE805FE1B71666F009CE135 /* Build configuration list for PBXNativeTarget "JeopardyFinalQTests" */;
+			buildPhases = (
+				CAE805ED1B71666F009CE135 /* Sources */,
+				CAE805EE1B71666F009CE135 /* Frameworks */,
+				CAE805EF1B71666F009CE135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE805F31B71666F009CE135 /* PBXTargetDependency */,
+			);
+			name = JeopardyFinalQTests;
+			productName = JeopardyFinalQTests;
+			productReference = CAE805F11B71666F009CE135 /* JeopardyFinalQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE805D01B71666E009CE135 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = bk;
+				TargetAttributes = {
+					CAE805D71B71666E009CE135 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CAE805F01B71666F009CE135 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CAE805D71B71666E009CE135;
+					};
+				};
+			};
+			buildConfigurationList = CAE805D31B71666E009CE135 /* Build configuration list for PBXProject "JeopardyFinalQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE805CF1B71666E009CE135;
+			productRefGroup = CAE805D91B71666E009CE135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE805D71B71666E009CE135 /* JeopardyFinalQ */,
+				CAE805F01B71666F009CE135 /* JeopardyFinalQTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE805D61B71666E009CE135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE805E71B71666E009CE135 /* Main.storyboard in Resources */,
+				CAE805EC1B71666F009CE135 /* LaunchScreen.xib in Resources */,
+				CAE805E91B71666E009CE135 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE805EF1B71666F009CE135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE805D41B71666E009CE135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE805E41B71666E009CE135 /* ViewController.m in Sources */,
+				CAE805E11B71666E009CE135 /* AppDelegate.m in Sources */,
+				CAE805DE1B71666E009CE135 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE805ED1B71666F009CE135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE805F81B71666F009CE135 /* JeopardyFinalQTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAE805F31B71666F009CE135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE805D71B71666E009CE135 /* JeopardyFinalQ */;
+			targetProxy = CAE805F21B71666F009CE135 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAE805E51B71666E009CE135 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE805E61B71666E009CE135 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE805EA1B71666F009CE135 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE805EB1B71666F009CE135 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE805F91B71666F009CE135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAE805FA1B71666F009CE135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE805FC1B71666F009CE135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JeopardyFinalQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAE805FD1B71666F009CE135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JeopardyFinalQ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAE805FF1B71666F009CE135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JeopardyFinalQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JeopardyFinalQ.app/JeopardyFinalQ";
+			};
+			name = Debug;
+		};
+		CAE806001B71666F009CE135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JeopardyFinalQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JeopardyFinalQ.app/JeopardyFinalQ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE805D31B71666E009CE135 /* Build configuration list for PBXProject "JeopardyFinalQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE805F91B71666F009CE135 /* Debug */,
+				CAE805FA1B71666F009CE135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE805FB1B71666F009CE135 /* Build configuration list for PBXNativeTarget "JeopardyFinalQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE805FC1B71666F009CE135 /* Debug */,
+				CAE805FD1B71666F009CE135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAE805FE1B71666F009CE135 /* Build configuration list for PBXNativeTarget "JeopardyFinalQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE805FF1B71666F009CE135 /* Debug */,
+				CAE806001B71666F009CE135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE805D01B71666E009CE135 /* Project object */;
+}
